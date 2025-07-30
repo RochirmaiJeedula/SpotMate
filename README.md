@@ -1,14 +1,18 @@
-# SpotMate
-A Flutter-based smart parking system that uses AI and geolocation to help users **discover**, **reserve**, and **price** parking spaces efficiently.
+# SpotMate 🅿️🚗
+
+**SpotMate** is an AI-powered smart parking space rental and pricing system built with Flutter.  
+It helps users discover, reserve, and pay for parking spaces in real-time based on availability and demand.  
+The app uses AI and geolocation to suggest smart prices and available nearby parking slots efficiently.
 
 ---
 
-## 🌟 Features
+## 📲 Key Features
 - 🔍 Real-time search for nearby parking
-- 📍 Live geolocation & maps integration
-- 🧠 AI-based dynamic pricing
-- 📆 Reservation & booking system
+- 📍 Map view using Google Maps
+- 🧠 AI-based dynamic pricing (planned)
+- 📅 Schedule booking in advance
 - 💸 Cost estimator for parking slots
+- 🔐 Secure login & user management (coming soon)
 
 ---
 
@@ -21,24 +25,9 @@ A Flutter-based smart parking system that uses AI and geolocation to help users 
 ---
 
 ## 🚀 Getting Started
-1. Clone the repo  
-   `git clone https://github.com/RochirmaiJeedula/SpotMate.git`
 
-2. Open in VS Code and run:  
-   `flutter pub get`  
-   `flutter run`
+### To run the app locally:
 
----
-
-## 📌 Status
-🧪 Currently in development. Core features being built.
-
----
-
-## 📧 Contact
-For queries or contributions, reach me at:  
-**rochirmaijeedula@gmail.com**
-
----
-
-> _Empowering smarter cities with smarter parking!_
+```bash
+flutter pub get
+flutter run
